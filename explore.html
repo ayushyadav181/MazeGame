@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore</title>
+    <style>
+      nav {
+        box-sizing: border-box;
+        border: 2px solid rgb(245, 15, 249);
+        background-color: #fff;
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 100%;
+        align-items: center;
+      }
+
+      nav h2 {
+        margin-left: 11px;
+        cursor: pointer;
+        color: #000;
+      }
+
+      nav h2 span {
+        font-style: italic;
+        color: rgb(245, 15, 249);
+      }
+
+      nav ul {
+        flex: 1;
+        text-align: center;
+      }
+
+      nav ul li {
+        display: inline-block;
+        margin: 10px 20px;
+        padding: 4px;
+      }
+
+      nav ul li a {
+        padding: 15px;
+        text-decoration: none;
+        color: #000;
+        transition: 2s;
+      }
+
+      nav ul li a:hover {
+        box-shadow: 0 5px 20px rgb(245, 15, 249) inset,
+          0 5px 20px rgb(245, 15, 249) inset, 0 5px 20px rgb(245, 15, 249) inset,
+          0 5px 20px rgb(245, 15, 249) inset;
+      }
+
+      nav .btn {
+        color: #000;
+        text-decoration: none;
+        margin-right: 25px;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        padding: 12px;
+        background-color: rgb(245, 15, 249);
+      }
+      .container {
+        width: 70%;
+        margin: 10rem auto;
+        padding: 4rem;
+        transition: transform 0.3s ease-in-out;
+      }
+      .container:hover {
+        transform: scale(1.05);
+      }
+      #heading {
+        border-bottom: 4px solid rgb(245, 15, 249);
+        display: inline-block;
+      }
+      .card {
+        border: 2px solid black;
+        width: 90%;
+        height: 200px;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: start;
+      }
+      .card-photo {
+        width: 40%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .card-photo img {
+        height: 100%;
+        width: 100%;
+      }
+      .game-details {
+        padding: 1rem;
+        font-size: larger;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: 600;
+      }
+      button {
+        padding: 0.5rem 0.7rem;
+        font-size: medium;
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h2>
+        <span>GAMES <br /> </span>ARENA
+      </h2>
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
+      </ul>
+      <a class="btn" href="./explore.html">EXPLORE GAMES</a>
+    </nav>
+    <div class="container">
+      <h1 id="heading">Explore Games</h1>
+      <div class="card">
+        <div class="card-photo"><img src="./wordle.png" /></div>
+
+        <div class="game-details">
+          <p>
+            Wordle is a word guessing game where you have six tries to guess a
+            five-letter word. The game gives you clues based on your guesses,
+            indicating if the letter is in the word and the correct position.
+            It's a great way to challenge yourself and improve your vocabulary.
+          </p>
+          <button>Start</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-photo"><img src="./agame.jpeg" /></div>
+
+        <div class="game-details">
+          <p>
+            Agame.com is a website that offers a wide variety of free online
+            games, from puzzle and strategy games to action and adventure games.
+            There's something for everyone on Agame.com, and you can play most
+            of the games without creating an account.
+          </p>
+          <button>Start</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-photo"><img src="./image.png" /></div>
+
+        <div class="game-details">
+          <p>
+            CrazyGames is another website that offers a large selection of free
+            online games. CrazyGames is known for its original games, like
+            Capybara Clicker 2 and Holey.io Battle Royale, but it also offers
+            popular titles like Subway Surfers and Slope.
+          </p>
+          <button>Start</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-photo"><img src="./image copy.png" /></div>
+
+        <div class="game-details">
+          <p>
+            WebGames.io focuses on ".io" games, which are a type of multiplayer
+            browser game that is typically fast-paced and competitive. Some
+            popular ".io" games include Agar.io, Diep.io, and Slither.io.
+          </p>
+          <button>Start</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

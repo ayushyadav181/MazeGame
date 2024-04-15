@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <style>
+      nav {
+        box-sizing: border-box;
+        border: 2px solid rgb(245, 15, 249);
+        background-color: #fff;
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 100%;
+        align-items: center;
+      }
+
+      nav h2 {
+        margin-left: 11px;
+        cursor: pointer;
+        color: #000;
+      }
+
+      nav h2 span {
+        font-style: italic;
+        color: rgb(245, 15, 249);
+      }
+
+      nav ul {
+        flex: 1;
+        text-align: center;
+      }
+
+      nav ul li {
+        display: inline-block;
+        margin: 10px 20px;
+        padding: 4px;
+      }
+
+      nav ul li a {
+        padding: 15px;
+        text-decoration: none;
+        color: #000;
+        transition: 2s;
+      }
+
+      nav ul li a:hover {
+        box-shadow: 0 5px 20px rgb(245, 15, 249) inset,
+          0 5px 20px rgb(245, 15, 249) inset, 0 5px 20px rgb(245, 15, 249) inset,
+          0 5px 20px rgb(245, 15, 249) inset;
+      }
+
+      nav .btn {
+        color: #000;
+        text-decoration: none;
+        margin-right: 25px;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        padding: 12px;
+        background-color: rgb(245, 15, 249);
+      }
+      .about-container {
+        width: 70%;
+        margin: 10rem auto;
+        padding: 4rem;
+        border: 2px solid rgb(245, 15, 249);
+        transition: transform 0.3s ease-in-out;
+      }
+      .about-container:hover {
+        transform: scale(1.1);
+      }
+      #heading {
+        border-bottom: 4px solid rgb(245, 15, 249);
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h2>
+        <span>GAMES <br /> </span>ARENA
+      </h2>
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
+      </ul>
+      <a class="btn" href="#">EXPLORE GAMES</a>
+    </nav>
+    <div class="about-container">
+      <h1 id="heading">About Maze Game</h1>
+      <p>
+        Welcome to the Maze Game! This thrilling adventure challenges players to
+        navigate through a series of intricate mazes, testing their skills,
+        speed, and strategy. Built using plain HTML5, CSS3, and JavaScript, this
+        game offers an immersive experience that transports players into a world
+        of twists, turns, and hidden passages.
+      </p>
+      <h3>Features:</h3>
+      <ul type="square">
+        <li>
+          <p>
+            <b>Dynamic Mazes:</b> Each maze is dynamically generated, providing
+            endless possibilities and ensuring no two games are alike.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Multiple Difficulty Levels:</b> Choose from multiple difficulty
+            levels, ranging from easy to expert, catering to players of all
+            skill levels.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Responsive Design:</b> The game's responsive design ensures
+            seamless gameplay across various devices, including desktops,
+            laptops, tablets, and smartphones.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Intuitive Controls:</b> Simple and intuitive controls make it
+            easy for players to navigate through the mazes using keyboard or
+            touchscreen inputs.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Interactive Elements:</b> Encounter interactive elements within
+            the mazes, such as obstacles, traps, and power-ups, adding
+            excitement and challenge to the gameplay.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Score Tracking:</b> Keep track of your progress with built-in
+            score tracking, allowing you to challenge yourself and compete with
+            friends for the top spot on the leaderboard.
+          </p>
+        </li>
+      </ul>
+      <p></p>
+      <h3>How to Play?</h3>
+      <ul type="square">
+        <li>
+          Use the arrow keys or swipe gestures to navigate through the maze.
+          Avoid obstacles and traps while searching for the exit.
+        </li>
+        <li>Collect power-ups to gain advantages and increase your score.</li>
+        <li>
+          Complete each maze as quickly as possible to earn high scores and
+          unlock new levels.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

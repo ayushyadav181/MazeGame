@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <style>
+      nav {
+        box-sizing: border-box;
+        border: 2px solid rgb(245, 15, 249);
+        background-color: #fff;
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 100%;
+        align-items: center;
+      }
+
+      nav h2 {
+        margin-left: 11px;
+        cursor: pointer;
+        color: #000;
+      }
+
+      nav h2 span {
+        font-style: italic;
+        color: rgb(245, 15, 249);
+      }
+
+      nav ul {
+        flex: 1;
+        text-align: center;
+      }
+
+      nav ul li {
+        display: inline-block;
+        margin: 10px 20px;
+        padding: 4px;
+      }
+
+      nav ul li a {
+        padding: 15px;
+        text-decoration: none;
+        color: #000;
+        transition: 2s;
+      }
+
+      nav ul li a:hover {
+        box-shadow: 0 5px 20px rgb(245, 15, 249) inset,
+          0 5px 20px rgb(245, 15, 249) inset, 0 5px 20px rgb(245, 15, 249) inset,
+          0 5px 20px rgb(245, 15, 249) inset;
+      }
+
+      nav .btn {
+        color: #000;
+        text-decoration: none;
+        margin-right: 25px;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        padding: 12px;
+        background-color: rgb(245, 15, 249);
+      }
+      .container {
+        width: 70%;
+        margin: 10rem auto;
+        padding: 4rem;
+        border: 2px solid rgb(245, 15, 249);
+        transition: transform 0.3s ease-in-out;
+      }
+      .container:hover {
+        transform: scale(1.1);
+      }
+      #heading {
+        border-bottom: 4px solid rgb(245, 15, 249);
+        display: inline-block;
+      }
+      a {
+        text-decoration: none;
+        color: rgb(234, 153, 237);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h2>
+        <span>GAMES <br /> </span>ARENA
+      </h2>
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
+      </ul>
+      <a class="btn" href="./explore.html">EXPLORE GAMES</a>
+    </nav>
+    <div class="container">
+      <h1 id="heading">Contact Us</h1>
+      <p>
+        Have a question, suggestion, or feedback about the Maze Game? We'd love
+        to hear from you! Feel free to reach out to us using any of the methods
+        below:
+      </p>
+
+      <h3>Email:</h3>
+      <p>
+        Send us an email at
+        <a href="mailto:ayush.yadav2022@vitstudent.ac.in"
+          >ayush.yadav2022@vitstudent.ac.in</a
+        >
+        and our team will get back to you as soon as possible.
+      </p>
+
+      <h3>Social Media:</h3>
+      <ul class="links">
+        <li>
+          <a href="https://twitter.com/MazeGame" target="_blank"
+            >Twitter: @MazeGame</a
+          >
+        </li>
+        <li>
+          <a href="https://www.facebook.com/MazeGameOfficial" target="_blank"
+            >Facebook: MazeGameOfficial</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/MazeGame" target="_blank"
+            >Instagram: @MazeGame</a
+          >
+        </li>
+      </ul>
+
+      <h3>Support:</h3>
+      <p>
+        Need assistance or have a technical issue while playing the game? Visit
+        our
+        <a href="https://mazegame.com/support" target="_blank"
+          >Support Center</a
+        >
+        for FAQs, troubleshooting tips, and assistance from our support team.
+      </p>
+
+      <h3>Feedback:</h3>
+      <p>
+        We value your feedback and strive to improve the Maze Game based on your
+        suggestions. Share your thoughts and ideas with us using the feedback
+        form below:
+      </p>
+      <p><a href="#">Feedback Form</a></p>
+    </div>
+  </body>
+</html>
